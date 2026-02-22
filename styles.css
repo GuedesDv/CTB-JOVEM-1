@@ -1,0 +1,13 @@
+/* ================= REGRAS GLOBAIS / CUSTOMIZADAS ================= */
+
+/* Recorte transversal usado no Hero Section */
+.clip-diagonal { 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%); 
+}
+
+/* Recorte do background escuro usado no Formulário (Apenas Desktop) */
+@media (min-width: 1024px) {
+    .clip-join-bg { 
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%); 
+    }
+}
